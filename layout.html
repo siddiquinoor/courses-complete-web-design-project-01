@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        body{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+        }
+        body, p, h1, h2, h3{
+            margin:0;
+        }
+        nav{
+            background: #3a1f5d;
+        }
+        nav a{
+            padding:20px;
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+        }
+        nav a:hover{
+            background: #f6d365;
+            color: black;
+        }
+        header{
+            background: #c83660;
+        }
+        .header_wrapper{
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+        header h1{
+            font-size: 36px;
+            margin-top: 30px;
+            margin-bottom: 10px; 
+        }
+        section{
+            width:80%;
+            float:left;
+        }
+        article{
+            padding: 30px;
+        }
+        article h2{
+            margin-bottom: 20px;
+        }
+        article p{
+            line-height: 22px;
+        }
+        aside{
+            width: 20%;
+            float: left;            
+        }
+        aside h3{
+            margin-top: 20px;
+            margin-bottom: 5px;
+            background: #f6d365;
+            padding: 10px;
+            text-align: center;
+        }
+        aside a{
+            display: block;
+            padding: 10px;
+            color: black;
+            background: #a0855b;
+            margin-bottom: 5px;
+            text-decoration: none;
+        }
+        aside a:hover{
+            background: #f6d365;
+            
+        }
+        footer{
+            clear:both;
+            background: #f6d365;
+        }
+        footer p{
+            padding: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Service</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <header>
+        <div class="header_wrapper">
+            <img src="human-male.png" width="250" />
+            <h1>ThirdEye Solution</h1>
+            <p>Webdesign | Programming | Gaming</p>
+        </div>        
+    </header>
+    <section>
+        <article>
+            <h2>This is a blog title.</h2>
+            <p>This is a simple blog to test the layout of any HTML file. In this example we are going to design a layout using CSS float property. In this layout there are 4 main part of the HTML page. The first one is navigation bar, second one is a header where company title and moto is placed, third one has 2 different section. On the right of the third part there are a parent section tag and within this tag there are 2 different article tag. On the right side of this third block we can see a aside tag is used. Finally in the last block is the footer block, where company copyright and other quick information is placed.</p>
+        </article>
+        <article>
+            <h2>This is another blog title.</h2>
+            <p>This is a simple blog to test the layout of any HTML file. In this example we are going to design a layout using CSS float property. In this layout there are 4 main part of the HTML page. The first one is navigation bar, second one is a header where company title and moto is placed, third one has 2 different section. On the right of the third part there are a parent section tag and within this tag there are 2 different article tag. On the right side of this third block we can see a aside tag is used. Finally in the last block is the footer block, where company copyright and other quick information is placed.</p>
+        </article>
+    </section>
+    <aside>
+        <h3>Quick Link</h3>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Service</a>
+        <a href="contact.html">Contact</a>
+
+        <h3>Social Link</h3>
+        <a href="home.html">Facebook</a>
+        <a href="about.html">Twitter</a>
+        <a href="service.html">Youtube</a>
+        
+        <h3>Use Link</h3>
+        <a href="home.html">The Daily News</a>
+        <a href="about.html">CNN</a>
+        <a href="service.html">BBC</a>
+        <a href="contact.html">Crickinfo</a>        
+    </aside>
+    <footer>
+        <p>&copy; ThirdEye - 2019 all rights reserved.</p>
+    </footer>
+</body>
+</html>
